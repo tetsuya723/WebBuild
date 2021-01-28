@@ -1,0 +1,25 @@
+body {
+		margin: 0;
+		padding: 0;
+	}
+	.container {
+		height: 95vh;
+		display: grid;
+		background: #333;
+		margin: 10px;
+	}
+	#top-div {
+		background: ;
+	}
+	#left-div {
+		
+	}
+	#center-div {
+		
+	}
+	#right-div {
+		
+	}
+	#bottom-div {
+		
+	}
