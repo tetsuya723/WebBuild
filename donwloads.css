@@ -167,6 +167,9 @@ font-family: 'Dosis', sans-serif;
 		line-height: 40px;
 		letter-spacing: 0;
 }
+	body {
+		background: #0d0e11;
+	}
 }
 @media only screen and (max-width: 330px) {
 	.h1 {
