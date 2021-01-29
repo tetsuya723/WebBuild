@@ -1,4 +1,4 @@
-	     body {
+  body {
 		margin: 0;
 		padding: 0;
 		background: #000000;
@@ -61,7 +61,7 @@ font-family: 'Dosis', sans-serif;
 	}
 	.h3 {
 		line-height: 20px;
-      	margin-top: 0;
+      		margin-top: 0;
 		margin-left: 0;
 		margin-right: 0;
 		margin-bottom: 5vh;
@@ -131,9 +131,8 @@ font-family: 'Dosis', sans-serif;
 	#win-logo {
 	 display: none;
 	}
-	 #btn-download {
+	#btn-download {
 		text-align: center;
-		
 }
 } 
 @media only screen and (max-width: 800px) {
@@ -141,12 +140,43 @@ font-family: 'Dosis', sans-serif;
 		font-size: 15px;
 		line-height: 110px;
 		
-	}
-	.h2 , .h3 {
-		font-size: 9px;
-	}
-	 #btn-download {
-		text-align: center;
-		width: 40%;
 }
+	#btn-download {
+		text-align: center;
+		font-size: 9px;
+		letter-spacing: 0;
+}
+@media only screen and (max-width: 500px) {
+	.h1 {
+		font-size: 15px;
+		line-height: 130px;
+		letter-spacing: 0;
+}
+.h2 , .h3 {
+		font-size: 8px;
+		margin-top: 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 1vh;
+	}
+	#btn-download {
+		text-align: center;
+		font-size: 6px;
+		overflow: hidden;
+		height: 40px;
+		line-height: 40px;
+		letter-spacing: 0;
+}
+}
+@media only screen and (max-width: 330px) {
+	.h1 {
+	font-size: 12px;
+}
+	.h2 , .h3 {
+		font-size: 7px;
+		margin-top: 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 1vh;
+	}
 }
