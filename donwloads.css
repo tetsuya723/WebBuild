@@ -19,6 +19,9 @@ font-family: 'Dosis', sans-serif;
 		"left center center right"
 		"bot bot bot bot"		;
 	}
+.small-dev {
+		display: none;
+	}
 	#top-div {
 		background: transparent;
 		grid-area: top;
